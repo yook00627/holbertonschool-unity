@@ -4,7 +4,7 @@
 
 # Unity
 
-<img alt="Unity" src=https://github.com/yook00627/holbertonschool-csharp/blob/master/c_sharp.png>
+<img alt="Unity" src=https://raw.githubusercontent.com/yook00627/holbertonschool-unity/master/unity.jpg>
 
 # Documentation
 
