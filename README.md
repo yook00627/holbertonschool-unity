@@ -4,7 +4,7 @@
 
 # Unity
 
-<img alt="Unity" src=https://raw.githubusercontent.com/yook00627/holbertonschool-unity/master/unity.jpg>
+<img alt="Unity" src="https://raw.githubusercontent.com/yook00627/holbertonschool-unity/master/unity.jpg" width=40% height=40%>
 
 # Documentation
 
