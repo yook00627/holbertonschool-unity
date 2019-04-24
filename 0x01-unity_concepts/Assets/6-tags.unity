@@ -161,6 +161,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d1c93facf5c247849a2e8ca7f192ff5d, type: 2}
+    - target: {fileID: 1652847673207766, guid: 4251c257e62e27e4d8c61cbbb787ed86, type: 2}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4251c257e62e27e4d8c61cbbb787ed86, type: 2}
   m_IsPrefabParent: 0
@@ -293,6 +297,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: db529cadcfdc80f488b79d0a7cde2063, type: 2}
+    - target: {fileID: 1652847673207766, guid: 4251c257e62e27e4d8c61cbbb787ed86, type: 2}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4251c257e62e27e4d8c61cbbb787ed86, type: 2}
   m_IsPrefabParent: 0
@@ -343,6 +351,10 @@ Prefab:
     - target: {fileID: 1652847673207766, guid: 4251c257e62e27e4d8c61cbbb787ed86, type: 2}
       propertyPath: m_Name
       value: Green Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 1652847673207766, guid: 4251c257e62e27e4d8c61cbbb787ed86, type: 2}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4251c257e62e27e4d8c61cbbb787ed86, type: 2}
@@ -395,6 +407,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 5183adf2011374f4093652bc38898ceb, type: 2}
+    - target: {fileID: 1652847673207766, guid: 4251c257e62e27e4d8c61cbbb787ed86, type: 2}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4251c257e62e27e4d8c61cbbb787ed86, type: 2}
   m_IsPrefabParent: 0
@@ -596,6 +612,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 4d6cc2d3ad142e7488613a8dea21c7ff, type: 2}
+    - target: {fileID: 1652847673207766, guid: 4251c257e62e27e4d8c61cbbb787ed86, type: 2}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4251c257e62e27e4d8c61cbbb787ed86, type: 2}
   m_IsPrefabParent: 0
