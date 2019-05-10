@@ -595,10 +595,10 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 2
-  cloudProjectId: 3232d430-db78-48a9-9d3d-4095451787f0
+  cloudProjectId: 421f2d39-2bc1-4d4f-a4e6-49346b76f104
   framebufferDepthMemorylessMode: 0
-  projectName: 0x02-unity-scripting
-  organizationId: carrie-ybay
+  projectName: Maze
+  organizationId: kevin-yook
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
