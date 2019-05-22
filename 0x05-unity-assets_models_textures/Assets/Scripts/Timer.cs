@@ -8,18 +8,28 @@ public class Timer : MonoBehaviour
     public Text timerText;
 
     private float timer = 0.0f;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private bool stop = false;
 
     // Update is called once per frame
     void Update()
     {
-        timer += Time.deltaTime;
+        if (!stop)
+        {
+            timer += Time.deltaTime;
 
-        timerText.text = string.Format("{0:0}:{1:00}.{2:00}", timer / 60, timer % 60, timer * 100 % 100);
+            timerText.text = string.Format("{0:0}:{1:00}.{2:00}", timer / 60, timer % 60, timer * 100 % 100);
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.name == "WinFlag")
+        {
+            stop = true;
+
+            timerText.text = string.Format("{0:0}:{1:00}.{2:00}", timer / 60, timer % 60, timer * 100 % 100);
+            timerText.fontSize = 36;
+            timerText.color = Color.green;
+        }
     }
 }
