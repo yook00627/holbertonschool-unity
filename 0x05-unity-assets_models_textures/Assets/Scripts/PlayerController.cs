@@ -26,8 +26,11 @@ public class PlayerController : MonoBehaviour
     {
         playerControl();
 
+        //when player dies
         if (t.position.y < -15)
         {
+            movement = new Vector3(0.0f, movement.y, 0.0f);
+            cc.Move(movement * Time.deltaTime);
             t.position = new Vector3(startPos.x, startPos.y + 15, startPos.z);
         }
     }
@@ -44,6 +47,7 @@ public class PlayerController : MonoBehaviour
                 movement.y = jumpSpeed;
             }
         }
+
         movement.y -= gravity * Time.deltaTime;
         cc.Move(movement * Time.deltaTime);
     }
