@@ -5,6 +5,9 @@ TextureImporter:
     21300000: button-bg_0
     21300002: button-bg_1
     21300004: button-bg_2
+    21300006: bg-button_0
+    21300008: bg-button_1
+    21300010: bg-button_2
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -87,7 +90,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: button-bg_0
+      name: bg-button_0
       rect:
         serializedVersion: 2
         x: 0
@@ -101,13 +104,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3982d1d1a86e91140b6d78c904b2027e
+      spriteID: 3ffdd9472ebf98249b42651dd99700d6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: button-bg_1
+      name: bg-button_1
       rect:
         serializedVersion: 2
         x: 200
@@ -121,13 +124,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9835468426a00347aea6f1eef9f852c
+      spriteID: ec1eee9c32bc45d41be1f994aba7693e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: button-bg_2
+      name: bg-button_2
       rect:
         serializedVersion: 2
         x: 400
@@ -141,7 +144,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54ac414791c3baf4fb1bb23dcd9dce7a
+      spriteID: a1112ef1d97019243872f4f989eb8a0a
       vertices: []
       indices: 
       edges: []
