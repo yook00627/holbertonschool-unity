@@ -4021,19 +4021,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 468397211653484739}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1688145160
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1688145153}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bb107d9f9dfc9949b4a04fa783314c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timerText: {fileID: 1745519080}
 --- !u!1 &1700847445 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: a35d8be86097f2249af1cdbf76432e53,
@@ -5290,18 +5277,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 356703455825969158, guid: 54431cfa9fee7894584f2bcfe7872869,
         type: 3}
-      propertyPath: speed
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 356703455825969158, guid: 54431cfa9fee7894584f2bcfe7872869,
-        type: 3}
       propertyPath: camera
       value: 
       objectReference: {fileID: 534669905}
-    - target: {fileID: 356703455825969158, guid: 54431cfa9fee7894584f2bcfe7872869,
-        type: 3}
-      propertyPath: jumpSpeed
-      value: 10
-      objectReference: {fileID: 0}
+    - target: {fileID: 1688145160, guid: 54431cfa9fee7894584f2bcfe7872869, type: 3}
+      propertyPath: timerText
+      value: 
+      objectReference: {fileID: 1745519080}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54431cfa9fee7894584f2bcfe7872869, type: 3}
