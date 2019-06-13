@@ -1011,7 +1011,7 @@ GameObject:
   - component: {fileID: 887481926}
   - component: {fileID: 887481925}
   m_Layer: 5
-  m_Name: 'SFXText '
+  m_Name: SFXText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
