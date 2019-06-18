@@ -2048,6 +2048,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1688145153}
   turnSpeed: 5
+  isInverted: 0
 --- !u!1 &550977466 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: c8067a3c2238a1141bfa98f6681c34db,
@@ -7671,6 +7672,21 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 788195593914480343, guid: 5cc6c8255734e7448a8e61e1121d7c32,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 304645377}
+    - target: {fileID: 788195592044133612, guid: 5cc6c8255734e7448a8e61e1121d7c32,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 304645377}
+    - target: {fileID: 7118821590898516681, guid: 5cc6c8255734e7448a8e61e1121d7c32,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 304645377}
     - target: {fileID: 788195593123181748, guid: 5cc6c8255734e7448a8e61e1121d7c32,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
