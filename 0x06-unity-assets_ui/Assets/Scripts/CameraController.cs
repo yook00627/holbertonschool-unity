@@ -18,7 +18,10 @@ public class CameraController : MonoBehaviour
     {
         t = GetComponent<Transform>();
         offset = t.position - player.transform.position;
-        inverted = 1;
+        if (PlayerPrefs.GetString("IsInverted") != "")
+            isInverted = bool.Parse(PlayerPrefs.GetString("IsInverted"));
+        else
+            isInverted = false;
     }
 
     // Update is called once per frame
