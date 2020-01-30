@@ -1,7 +1,3 @@
-# holbertonschool-unity
-
-<img alt="Holberton Logo" src="https://techcrunch.com/wp-content/uploads/2015/11/holberton-logo-horizontal.jpg?w=730&crop=1" width=40% height=40%>
-
 # Unity
 
 <img alt="Unity" src="https://raw.githubusercontent.com/yook00627/holbertonschool-unity/master/unity.jpg" width=40% height=40%>
